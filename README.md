@@ -10,7 +10,11 @@ I designed, built, shipped, and continue to maintain the application using Swift
 **Full portfolio case study:**
 [True Lock Tuner Engineering Case Study](https://gregory-swan-portfolio.netlify.app/project1)
 
----
+## App Screenshots
+
+| Tuner | Detect Chord | Metronome |
+|:---:|:---:|:---:|
+| <img src="Screenshots/tuner-main.png" alt="True Lock Tuner main tuner" width="300"> | <img src="Screenshots/detect-chord.png" alt="True Lock Tuner Detect Chord" width="300"> | <img src="Screenshots/metronome.png" alt="True Lock Tuner metronome" width="300"> |
 
 ## Engineering Focus
 
