@@ -16,6 +16,8 @@ I designed, built, shipped, and continue to maintain the application using Swift
 |:---:|:---:|:---:|
 | <img src="Screenshots/tuner-main.png" alt="True Lock Tuner main tuner" width="300"> | <img src="Screenshots/detect-chord.png" alt="True Lock Tuner Detect Chord" width="300"> | <img src="Screenshots/metronome.png" alt="True Lock Tuner metronome" width="300"> |
 
+[View the detailed architecture overview](Architecture/architecture-overview.md)
+
 ## Engineering Focus
 
 True Lock Tuner combines real-time audio processing with a state-driven SwiftUI interface and multiple interactive practice tools.
