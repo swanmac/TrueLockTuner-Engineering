@@ -35,7 +35,22 @@ Key engineering areas include:
 * Simulator and physical-device testing
 * App Store release and post-launch maintenance
 
----
+## Selected Code Samples
+
+The production application source is private, but this repository includes three curated examples derived from the shipping codebase. Each sample focuses on a different area of production iOS engineering while omitting proprietary or application-specific implementation details.
+
+| Sample | Engineering Focus |
+|---|---|
+| [Audio Processing](Selected-Code/Audio/AudioProcessingExample.swift) | AVFoundation, microphone capture, PCM buffers, RMS noise gating, median filtering, state stabilization, and main-thread UI updates |
+| [State-Driven Architecture](Selected-Code/Architecture/ChordLibraryViewModelExample.swift) | ObservableObject, Combine, dependency injection, debounced search, filtering, loading/error state, and presentation logic |
+| [StoreKit 2 Purchases](Selected-Code/StoreKit/StoreKitPurchaseExample.swift) | async/await, product loading, transaction verification, entitlement management, transaction monitoring, and purchase restoration |
+
+### Documentation
+
+- [Audio Processing Notes](Selected-Code/Audio/README.md)
+- [Architecture Sample Notes](Selected-Code/Architecture/README.md)
+- [StoreKit 2 Sample Notes](Selected-Code/StoreKit/README.md)
+- [Full Architecture Overview](Architecture/architecture-overview.md)
 
 ## Real-Time Audio Processing
 
